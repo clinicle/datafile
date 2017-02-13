@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="test/bootstrap.php"
+         backupGlobals="false"
+         backupStaticAttributes="false"
+         verbose="true"
+         timeoutForSmallTests="1"
+         timeoutForMediumTests="10"
+         timeoutForLargeTests="60"
+        >
+
+    <testsuites>
+        <testsuite name="ClinicLE\DataFile">
+            <directory suffix="Test.php">test</directory>
+        </testsuite>
+	</testsuites>
+
+</phpunit>

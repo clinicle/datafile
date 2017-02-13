@@ -1,0 +1,30 @@
+{
+    "name": "clinicle/datafile",
+    "description": "Library which provides support for loading XLSX and CSV files a row at a time or in one go",
+    "require": {
+        "php": ">=5.3.3",
+        "phpoffice/phpexcel": "^1.8",
+        "clinicle/common": "^1.0"
+    },
+	"require-dev":{
+		"phpunit/phpunit":"^4.1",
+      "apache/log4php":"*"
+	},
+    "minimum-stability":"dev",
+    "prefer-stable":true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://projects.ilh.le.ac.uk/satis"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ClinicLE\\DataFile\\": "src",
+			"ClinicLE\\Test\\DataFile\\": "test"
+        }
+    },
+"config":{
+	"secure-http":false
+}
+}
