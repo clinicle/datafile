@@ -1,1 +1,4 @@
-Library which provides support for loading XLSX and CSV files a row at a time or in one go
+README
+
+Library for loading XLSX/CSV files in one go, by row or page-by-page using the BatchReader class.
+
